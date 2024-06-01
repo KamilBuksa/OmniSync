@@ -49,13 +49,12 @@ Struktura aplikacji obejmuje strony (Home, Dashboard, Products, Settings, Logs),
 - **Shopify**: Integracja z Shopify wykorzystuje OAuth2 do autoryzacji i obsługuje operacje pobierania, dodawania, aktualizowania i usuwania produktów.
 
 ## 5. Plan Rozwoju i Harmonogram
-### Faza 1 (0-2 miesiące)
+### Faza 1 (0-14 miesięcy)
 - Implementacja podstawowych funkcji backendu i frontendu
 - Integracja z WooCommerce i Shopify
 - Testowanie jednostkowe i integracyjne
 
 ### Faza 2 (2-4 miesiące)
-- Dodanie zaawansowanych funkcji (szczegółowe logowanie operacji)
 - Udoskonalenie UI/UX na podstawie feedbacku użytkowników
 - Testy akceptacyjne i poprawki
 
@@ -71,7 +70,6 @@ Struktura aplikacji obejmuje strony (Home, Dashboard, Products, Settings, Logs),
 
 ## 7. Wdrożenie
 - **CI/CD**: Automatyzacja wdrażania (GitHub Actions).
-- **Monitoring**: Prometheus i Grafana do monitorowania systemu.
 
 ## 8. Dokumentacja i Wsparcie
 - **Dokumentacja API**: Szczegółowa dokumentacja endpointów.
