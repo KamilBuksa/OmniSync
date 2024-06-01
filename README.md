@@ -25,7 +25,7 @@ OmniSync to uniwersalna platforma umożliwiająca dwukierunkową synchronizację
 - **Skalowalność**: Architektura systemu powinna umożliwiać łatwe dodawanie nowych funkcjonalności i integracji.
 
 ## 3. Architektura Systemu
-### Backend (Node.js + Nest.js)
+### Backend (Node/Nest.js)
 OmniSync składa się z kilku modułów:
 - **AuthModule**: zarządzanie autoryzacją użytkowników
 - **UserModule**: zarządzanie użytkownikami i ich konfiguracjami
