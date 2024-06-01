@@ -1,4 +1,4 @@
-echo "# Specyfikacja Projektu OmniSync (Wersja MVP)
+# Specyfikacja Projektu OmniSync (Wersja MVP)
 
 ## Nazwa Projektu
 **OmniSync** - Synchronizacja danych produktów eCommerce
@@ -78,4 +78,4 @@ Struktura aplikacji obejmuje strony (Home, Dashboard, Products, Settings, Logs),
 - **Wsparcie techniczne**: System zgłaszania błędów i propozycji usprawnień.
 
 ## Podsumowanie
-Projekt OmniSync zapewni kompleksowe rozwiązanie do synchronizacji produktów między sklepami internetowymi, zaczynając od WooCommerce i Shopify. Skupienie się na bezpieczeństwie, wydajności i skalowalności gwarantuje solidne fundamenty dla dalszego rozwoju i rozszerzenia funkcjonalności." > README.md
+Projekt OmniSync zapewni kompleksowe rozwiązanie do synchronizacji produktów między sklepami internetowymi, zaczynając od WooCommerce i Shopify. Skupienie się na bezpieczeństwie, wydajności i skalowalności gwarantuje solidne fundamenty dla dalszego rozwoju i rozszerzenia funkcjonalności.
