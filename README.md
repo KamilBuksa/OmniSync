@@ -1,7 +1,7 @@
 # Specyfikacja Aplikacji OmniSync (Wersja MVP)
 
 ## Nazwa Projektu
-**OmniSync** - Synchronizacja danych produktów eCommerce
+**OmniSync** - System synchronizacji produktów eComerce.
 
 ## Cel Projektu
 OmniSync to uniwersalna platforma umożliwiająca dwukierunkową synchronizację produktów między różnymi sklepami internetowymi a centralnym systemem zarządzania. Wersja MVP wspiera integrację z WooCommerce i Shopify.
