@@ -1,4 +1,4 @@
-# Specyfikacja Projektu OmniSync (Wersja MVP)
+# Specyfikacja Aplikacji OmniSync (Wersja MVP)
 
 ## Nazwa Projektu
 **OmniSync** - Synchronizacja danych produktów eCommerce
