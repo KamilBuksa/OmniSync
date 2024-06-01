@@ -11,6 +11,7 @@ OmniSync to uniwersalna platforma umożliwiająca dwukierunkową synchronizację
 - Dwukierunkowa synchronizacja produktów
 - Bezpieczne przechowywanie i przesyłanie danych
 - Interfejs użytkownika do zarządzania integracjami
+- Interfejs użytkownika do zarządzania integracjami, zoptymalizowany pod kątem przeglądarek Google Chrome, Safari, Firefox
 
 ## 1. Wymagania Funkcjonalne
 - **Rejestracja i logowanie**: Użytkownicy mogą zakładać konta i logować się do systemu.
