@@ -104,37 +104,63 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
    - **Priorytet**: 1 - wymagane
 
 3. **Monitorowanie Aktywności Użytkowników**
+
    - **Opis**: Jako Administrator, chciałbym mieć dostęp do logów aktywności wszystkich użytkowników, aby móc analizować ich działania i reagować na ewentualne anomalie.
    - **Priorytet**: 2 - przydatne
 
+4. **Wysyłanie Linku Weryfikacyjnego**
+
+   - **Opis**: Jako Administrator, chcę móc wysyłać linki weryfikacyjne do nowo zarejestrowanych użytkowników, aby zapewnić, że ich adresy email są prawidłowe.
+   - **Priorytet**: 1 - wymagane
+
+5. **Przeglądanie Całej Bazy Produktów**
+   - **Opis**: Jako Administrator, chcę mieć dostęp do przeglądania całej bazy produktów, aby móc monitorować i zarządzać wszystkimi produktami w systemie z jednego miejsca.
+   - **Priorytet**: 1 - wymagane
+
 #### 3.3.2 Właściciel Sklepu
 
-1. **Dodawanie Integracji z Platformą eCommerce**
+1. **Rejestracja Konta przez Email**
+
+   - **Opis**: Jako Właściciel Sklepu, chcę mieć możliwość rejestracji mojego konta przez email, aby móc rozpocząć korzystanie z systemu.
+   - **Priorytet**: 1 - wymagane
+   - **Szczegóły**: Proces rejestracji powinien obejmować wypełnienie formularza rejestracyjnego na stronie internetowej, podanie niezbędnych danych takich jak nazwa użytkownika, adres email i hasło. Po wypełnieniu formularza, system powinien wysłać email weryfikacyjny z linkiem aktywacyjnym, który użytkownik musi kliknąć, aby zweryfikować adres email i aktywować swoje konto.
+
+   2. **Weryfikacja Konta przez Email**
+
+   - **Opis**: Jako Właściciel Sklepu, chcę mieć możliwość weryfikacji mojego konta przez email po rejestracji, aby zapewnić bezpieczeństwo i potwierdzenie mojej tożsamości w systemie.
+   - **Priorytet**: 1 - wymagane
+
+2. **Logowanie z Dwuetapową Weryfikacją**
+
+   - **Opis**: Jako Właściciel Sklepu, chcę korzystać z dwuetapowej weryfikacji podczas logowania, aby zwiększyć bezpieczeństwo dostępu do mojego konta.
+   - **Priorytet**: 2 - przydatne
+
+3. **Dodawanie Integracji z Platformą eCommerce**
 
    - **Opis**: Jako Właściciel Sklepu, chciałbym móc łatwo dodawać integracje z różnymi platformami eCommerce, takimi jak WooCommerce i Shopify, aby rozszerzać moją działalność na nowe rynki i kanały sprzedaży.
    - **Priorytet**: 1 - wymagane
 
-2. **Konfiguracja Integracji**
+4. **Konfiguracja Integracji**
 
    - **Opis**: Jako Właściciel Sklepu, chciałbym mieć możliwość konfiguracji ustawień integracji, takich jak częstotliwość synchronizacji danych, aby dostosować procesy biznesowe do moich potrzeb.
    - **Priorytet**: 1 - wymagane
 
-3. **Zarządzanie Produktami**
+5. **Zarządzanie Produktami**
 
    - **Opis**: Jako Właściciel Sklepu, chciałbym mieć możliwość dodawania, edytowania i usuwania produktów w moim sklepie, aby aktualizować i zarządzać moim asortymentem zgodnie z potrzebami rynku.
    - **Priorytet**: 1 - wymagane
 
-4. **Synchronizacja Stanów Magazynowych**
+6. **Synchronizacja Stanów Magazynowych**
 
    - **Opis**: Jako Właściciel Sklepu, chciałbym, aby system automatycznie synchronizował stany magazynowe między różnymi platformami, aby uniknąć błędów wynikających z różnic w danych.
    - **Priorytet**: 1 - wymagane
 
-5. **Generowanie Raportów Sprzedaży**
+7. **Generowanie Raportów Sprzedaży**
 
    - **Opis**: Jako Właściciel Sklepu, chciałbym generować szczegółowe raporty sprzedaży, aby analizować wyniki i optymalizować moje strategie biznesowe.
    - **Priorytet**: 2 - przydatne
 
-6. **Zakup Subskrypcji**
+8. **Zakup Subskrypcji**
 
 - **Opis**: Jako Właściciel Sklepu, chcę mieć możliwość zakupu subskrypcji, która pozwoli mi na dodawanie produktów oraz integracji z platformami eCommerce, aby dostosować możliwości mojego sklepu do aktualnych potrzeb i strategii biznesowej.
 - **Priorytet**: 1 - wymagane
