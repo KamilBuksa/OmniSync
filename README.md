@@ -239,7 +239,26 @@ Scenariusze testowe powinny być bezpośrednio związane z poszczególnymi histo
 
 #### Scenariusze dla Właściciela Sklepu:
 
-1. **Testowanie Dodawania Integracji z Platformą eCommerce**
+1. **Testowanie Rejestracji Konta przez Email**
+
+   - **Cel**: Sprawdzenie, czy proces rejestracji konta przez email przebiega prawidłowo i jest bezpieczny.
+   - **Kroki**:
+     1. Właściciel sklepu wypełnia formularz rejestracyjny na stronie.
+     2. Właściciel sklepu podaje swoje dane, w tym adres email.
+     3. System wysyła email weryfikacyjny.
+     4. Właściciel sklepu klika link weryfikacyjny w emailu.
+   - **Oczekiwany wynik**: Właściciel sklepu jest prawidłowo zarejestrowany i weryfikowany, a jego konto jest aktywne i gotowe do użytku.
+
+2. **Testowanie Logowania z Dwuetapową Weryfikacją**
+
+   - **Cel**: Weryfikacja, czy proces logowania z dwuetapową weryfikacją zapewnia dodatkowe zabezpieczenie.
+   - **Kroki**:
+     1. Właściciel sklepu wpisuje swoje dane logowania.
+     2. System żąda drugiego czynnika uwierzytelnienia.
+     3. Właściciel sklepu dostarcza drugi czynnik, np. kod z aplikacji autentykacyjnej.
+   - **Oczekiwany wynik**: Właściciel sklepu jest bezpiecznie zalogowany do systemu po pomyślnym przejściu przez oba etapy uwierzytelnienia.
+
+3. **Testowanie Dodawania Integracji z Platformą eCommerce**
 
    - **Cel**: Sprawdzenie, czy właściciel sklepu może efektywnie dodać nową integrację z platformą eCommerce.
    - **Kroki**:
@@ -248,12 +267,22 @@ Scenariusze testowe powinny być bezpośrednio związane z poszczególnymi histo
      3. Właściciel konfiguruje i zapisuje ustawienia integracji.
    - **Oczekiwany wynik**: Nowa integracja jest dodana i prawidłowo skonfigurowana w systemie.
 
-2. **Testowanie Synchronizacji Stanów Magazynowych**
+4. **Testowanie Synchronizacji Stanów Magazynowych**
+
    - **Cel**: Weryfikacja, czy informacje o stanie magazynowym są synchronizowane między różnymi platformami zgodnie z konfiguracją.
    - **Kroki**:
      1. Właściciel sklepu inicjuje proces synchronizacji.
      2. System przetwarza i aktualizuje stany magazynowe w zależności od ustawień.
    - **Oczekiwany wynik**: Stany magazynowe na różnych platformach są aktualne i spójne.
+
+5. **Testowanie Zakupu Subskrypcji**
+
+   - **Cel**: Sprawdzenie, czy właściciel sklepu może zakupić i aktywować subskrypcję, która pozwala na zarządzanie produktami i integracjami zgodnie z wybranym limitem.
+   - **Kroki**:
+     1. Właściciel sklepu wchodzi na stronę zarządzania subskrypcjami.
+     2. Wybiera żądaną subskrypcję i dokonuje płatności.
+     3. Subskrypcja jest aktywowana, a limity produktów i integracji są aktualizowane.
+   - **Oczekiwany wynik**: Właściciel sklepu ma aktywną subskrypcję z dostępem do określonej liczby produktów i integracji.
 
 ### 4.3 Sprawozdanie z Wykonania Scenariuszy Testów
 
@@ -304,18 +333,32 @@ OmniSync składa się z dwóch głównych komponentów: backendu i frontend. Arc
 ### 6.1 Dokumentacja API
 
 - **Endpointy**:
+
   - **Auth**:
+
     - POST `/api/auth/login`: Logowanie użytkownika.
     - POST `/api/auth/register`: Rejestracja nowego użytkownika.
+    - POST `/api/auth/verify-email`: Weryfikacja adresu email.
+    - POST `/api/auth/verify-2fa`: Dwuetapowa weryfikacja przy logowaniu.
+
   - **Products**:
+
     - GET `/api/products`: Pobierz listę produktów.
     - POST `/api/products`: Dodaj nowy produkt.
     - PUT `/api/products/:id`: Zaktualizuj produkt.
     - DELETE `/api/products/:id`: Usuń produkt.
+
   - **Integrations**:
+
     - GET `/api/integrations`: Pobierz listę integracji.
     - POST `/api/integrations`: Dodaj nową integrację.
     - DELETE `/api/integrations/:id`: Usuń integrację.
+
+  - **Subscriptions**:
+    - GET `/api/subscriptions`: Pobierz informacje o subskrypcjach użytkownika.
+    - POST `/api/subscriptions`: Zakup nowej subskrypcji.
+    - PUT `/api/subscriptions/:id`: Aktualizacja subskrypcji.
+    - DELETE `/api/subscriptions/:id`: Anulowanie subskrypcji.
 
 ## 7. Plan Rozwoju
 
