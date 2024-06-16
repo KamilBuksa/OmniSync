@@ -20,7 +20,7 @@ OmniSync jest zaawansowaną platformą przeznaczoną do dwukierunkowej synchroni
 
 KamilBuksa
 
-### 2.2 Warunki Licencyjne do Oprogramowania Wytworzonego przez Grupę
+### 2.2 Warunki Licencyjne
 
 Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezpłatne używanie, modyfikację oraz dystrybucję oprogramowania, zarówno w formie pierwotnej, jak i zmodyfikowanej, pod warunkiem zachowania informacji o prawach autorskich i tekstu licencji. Licencja MIT jest jedną z najbardziej liberalnych licencji, co sprzyja szerokiemu rozpowszechnianiu i adaptacji oprogramowania, jednocześnie oferując ochronę praw autorskich twórców.
 
