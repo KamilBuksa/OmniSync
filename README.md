@@ -48,7 +48,7 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 - Zarządzanie produktami, w tym dodawanie, edytowanie i usuwanie produktów.
 - Śledzenie i analizowanie danych dotyczących sprzedaży i zapasów.
 
-### 3.2 Opis Grup Funkcjonalności (Epics)
+### 3.2 Opis Grup Funkcjonalności
 
 #### Zarządzanie Uprawnieniami i Użytkownikami
 
