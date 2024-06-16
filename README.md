@@ -130,8 +130,14 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
    - **Priorytet**: 1 - wymagane
 
 5. **Generowanie Raportów Sprzedaży**
+
    - **Opis**: Jako Właściciel Sklepu, chciałbym generować szczegółowe raporty sprzedaży, aby analizować wyniki i optymalizować moje strategie biznesowe.
    - **Priorytet**: 2 - przydatne
+
+6. **Zakup Subskrypcji**
+
+- **Opis**: Jako Właściciel Sklepu, chcę mieć możliwość zakupu subskrypcji, która pozwoli mi na dodawanie produktów oraz integracji z platformami eCommerce, aby dostosować możliwości mojego sklepu do aktualnych potrzeb i strategii biznesowej.
+- **Priorytet**: 1 - wymagane
 
 ### 3.4 Priorytety
 
@@ -140,6 +146,33 @@ Każda z historyjek użytkowników została przypisana do jednego z trzech pozio
 - **1 - Wymagane**: Krytyczne dla podstawowej funkcjonalności i operacji systemu.
 - **2 - Przydatne**: Ulepszają doświadczenia użytkownika i efektywność operacyjną, ale nie są krytyczne.
 - **3 - Opcjonalne**: Mogą być dodane później, aby rozszerzyć funkcjonalność systemu.
+
+### 3.5 Moduł Subskrypcji
+
+#### Typy Subskrypcji
+
+1. **Pakiet Podstawowy**
+
+   - **Cena**: 100 zł miesięcznie
+   - **Ograniczenia**: Do 1000 produktów i 2 integracje
+   - **Opis**: Idealny dla mniejszych przedsiębiorstw potrzebujących podstawowej funkcjonalności zarządzania niewielką liczbą produktów oraz integracji z dwiema platformami eCommerce.
+
+2. **Pakiet Rozszerzony**
+
+   - **Cena**: 250 zł miesięcznie
+   - **Ograniczenia**: Do 10 000 produktów i 4 integracje
+   - **Opis**: Skierowany do średnich sklepów, które poszukują rozszerzonej funkcjonalności oraz możliwości zarządzania większą liczbą produktów i integracji.
+
+3. **Pakiet Premium**
+
+   - **Cena**: 500 zł miesięcznie
+   - **Ograniczenia**: Do 50 000 produktów i 6 integracji
+   - **Opis**: Przeznaczony dla dużych sklepów z potrzebą obsługi dużej liczby produktów i wielu integracji, zapewniając kompleksowe zarządzanie zasobami.
+
+4. **Pakiet Nieograniczony**
+   - **Cena**: 1000 zł miesięcznie
+   - **Ograniczenia**: Nieograniczona liczba produktów i integracji
+   - **Opis**: Dla sklepów, które wymagają pełnej elastyczności i skalowalności bez jakichkolwiek ograniczeń w liczbie produktów czy integracji.
 
 ## 4. Testy
 
