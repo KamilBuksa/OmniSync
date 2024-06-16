@@ -31,9 +31,10 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 #### Administrator
 
 **Rola**: Administrator systemu odpowiada za ogólne zarządzanie systemem, w tym bezpieczeństwo, monitorowanie działania oraz zarządzanie kontami użytkowników.
-
 **Odpowiedzialności**:
 
+- Wysyłanie linków weryfikacyjnych do nowych użytkowników.
+- Pełen dostęp do bazy danych produktów, umożliwiający zarządzanie i kontrolę nad wszystkimi wpisami.
 - Zarządzanie kontami użytkowników, w tym blokowanie i odblokowywanie dostępu.
 - Monitorowanie zdrowia systemu i reagowanie na incydenty.
 - Aktualizacje systemu oraz zarządzanie patchami bezpieczeństwa.
@@ -41,9 +42,10 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 #### Użytkownik OmniSync (Właściciel sklepu)
 
 **Rola**: Właściciel sklepu korzysta z systemu do zarządzania produktami oraz integracjami z różnymi platformami eCommerce.
-
 **Odpowiedzialności**:
 
+- Rejestracja i weryfikacja konta przez e-mail.
+- Logowanie z opcją dwuetapowej weryfikacji dla dodatkowego bezpieczeństwa.
 - Dodawanie, konfiguracja i zarządzanie integracjami z platformami eCommerce.
 - Zarządzanie produktami, w tym dodawanie, edytowanie i usuwanie produktów.
 - Śledzenie i analizowanie danych dotyczących sprzedaży i zapasów.
@@ -53,9 +55,9 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 #### Zarządzanie Uprawnieniami i Użytkownikami
 
 **Opis**: Funkcje umożliwiające administratorowi zarządzanie dostępem do systemu oraz kontrolę nad kontami użytkowników.
-
 **Cechy**:
 
+- Wysyłanie e-maili weryfikacyjnych do nowych użytkowników.
 - Blokowanie i odblokowywanie użytkowników.
 - Przeglądanie aktywności i logów użytkowników.
 - Zarządzanie rolami użytkowników.
@@ -63,7 +65,6 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 #### Integracje z Platformami eCommerce
 
 **Opis**: Funkcje umożliwiające właścicielom sklepów dodawanie, konfigurację oraz zarządzanie integracjami z różnymi platformami sprzedaży online.
-
 **Cechy**:
 
 - Konfiguracja i zarządzanie integracjami (np. WooCommerce, Shopify).
@@ -73,7 +74,6 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 #### Zarządzanie Produktami
 
 **Opis**: Funkcjonalność umożliwiająca użytkownikom OmniSync zarządzanie ich asortymentem produktów w różnych sklepach internetowych poprzez jednolity system.
-
 **Cechy**:
 
 - Dodawanie, edytowanie i usuwanie produktów.
@@ -87,7 +87,7 @@ Oprogramowanie OmniSync jest wydane na licencji MIT. Licencja ta pozwala na bezp
 **Cechy**:
 
 - Generowanie raportów sprzedaży i analiz rynkowych.
-- Śledzenie wydajności integracji i efektywności operacji sprzedażowych.
+- Śledzenie wydajności integracji i efektywności operacji sprzedażowych.lo
 
 ### 3.3 Historyjki Użytkownika
 
