@@ -18,7 +18,7 @@ OmniSync jest zaawansowaną platformą przeznaczoną do dwukierunkowej synchroni
 
 ### 2.1 Autor
 
-KamilBu
+KamilBuksa
 
 ### 2.2 Warunki Licencyjne do Oprogramowania Wytworzonego przez Grupę
 
